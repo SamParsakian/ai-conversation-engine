@@ -7,7 +7,8 @@ const client = new OpenAI({
 
 const response = await client.responses.create({
   model: "gpt-4.1-mini",
-  input: "Give three interesting facts about Stockholm. Answer in under 50 words."
+  input: "What makes Stockholm unique in Europe? Answer in under 50 words.",
+  temperature: 0.7
 });
 
 console.log(response);
