@@ -14,5 +14,5 @@ const stream = await client.responses.create({
 });
 
 for await (const event of stream) {
-  console.log(event);
+  console.log(event.delta);
 }
