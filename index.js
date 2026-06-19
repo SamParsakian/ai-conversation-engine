@@ -7,8 +7,8 @@ const client = new OpenAI({
 
 const response = await client.responses.create({
   model: "gpt-4.1-mini",
-  input: "What is KTH Royal Institute of Technology in Stockholm? Answer in under 50 words."
+  previous_response_id: "PASTE_YOUR_RESPONSE_ID_HERE",
+  input: "Explain it simpler."
 });
 
 console.log(response.output_text);
-console.log(response.id);
