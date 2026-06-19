@@ -5,10 +5,14 @@ const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const response = await client.responses.create({
+const stream = await client.responses.create({
   model: "gpt-4.1-mini",
-  previous_response_id: "PASTE_YOUR_RESPONSE_ID_HERE",
-  input: "Explain it simpler."
+  input: "Describe Stockholm's Old Town in three points. Answer in under 50 words.",
+  temperature: 0.7,
+  max_output_tokens: 50,
+  stream: true
 });
 
-console.log(response.output_text);
+for await (const event of stream) {
+  console.log(event);
+}
