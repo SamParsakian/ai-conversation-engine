@@ -46,4 +46,4 @@ node index.js
 
 ## Demo Video
 
-A full video walkthrough of this project is available here: _(link coming soon)_
+[![Watch the demo](https://img.youtube.com/vi/Or658NvGdAc/0.jpg)](https://www.youtube.com/watch?v=Or658NvGdAc)
