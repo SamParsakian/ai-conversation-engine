@@ -1,4 +1,5 @@
-# Let's Use AI API
+# AI Conversation Engine — OpenAI Responses API in Node.js
+
 
 A hands-on Node.js project demonstrating practical usage of the OpenAI API — from a basic request to streaming responses in real time.
 
