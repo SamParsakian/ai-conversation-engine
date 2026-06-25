@@ -46,4 +46,4 @@ node index.js
 
 ## Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/Or658NvGdAc/0.jpg)](https://www.youtube.com/watch?v=Or658NvGdAc)
+[![Watch the demo](https://img.youtube.com/vi/1kyyhzPatWo/maxresdefault.jpg)](https://youtu.be/1kyyhzPatWo)
